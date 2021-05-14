@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/inter-v3-latin-regular.woff2") format("woff2");
+  src: local(""), url("../fonts/inter-v3-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/inter-v3-latin-700.woff2") format("woff2");
+  src: local(""), url("../fonts/inter-v3-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/lexend-deca-v7-latin-regular.woff2") format("woff2");
+  src: local(""), url("../fonts/lexend-deca-v7-latin-regular.woff") format("woff");
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", serif, "Lexend Deca", san-serif;
+  background-color: #090b1a;
+  color: rgba(255, 255, 255, 0.75);
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 8rem 4rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  width: 50rem;
+  max-height: 50vh;
+  background-color: #1b1938;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 0;
+  height: 100%;
+}
+
+body main figure {
+  height: 305.2px;
+  width: calc(800px/2);
+  background-color: #aa5cdb;
+}
+
+body main figure img {
+  height: 305.2px;
+  width: calc(800px/2);
+  opacity: .25;
+}
+
+body main .text-section {
+  height: 305.2px;
+  width: calc(800px/2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: justify;
+}
+
+body main .text-section .headerText {
+  font-weight: 700;
+  font-family: "Inter", serif;
+  color: white;
+  text-align: justify;
+  padding-right: 5rem;
+  padding-left: 3.6rem;
+  padding-bottom: 9px;
+  padding-top: 3rem;
+}
+
+body main .text-section .headerText::first-line {
+  word-spacing: -2px;
+}
+
+body main .text-section .headerText span {
+  color: #aa5cdb;
+}
+
+body main .text-section .paragraph {
+  font-family: "Lexend Deca", san-serif;
+  font-weight: 400;
+  font-size: 10.5px;
+  padding-right: 100px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  text-align: justify;
+  line-height: 1rem;
+  word-spacing: -1.5px;
+  opacity: .7;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body main .text-section__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 305.2px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+  margin-right: 46px;
+}
+
+body main .text-section aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main .text-section aside .stats {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+body main .text-section aside .text {
+  text-transform: uppercase;
+  font-family: "Lexend Deca", san-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*# sourceMappingURL=main.css.map */
